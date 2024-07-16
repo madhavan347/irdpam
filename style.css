@@ -1,55 +1,41 @@
-.hori-timeline .events .event-list {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding-top: 70px;
-    margin-right: 0;
+.bg-mb1 {
+    background-color: #382C6B !important;
 }
 
-.hori-timeline .events .event-list:before {
-    content: "";
-    position: absolute;
-    height: 36px;
-    top: 0;
+.bg-mb2 {
+    background-color: #5F4F93 !important;
 }
 
-.hori-timeline .events .event-list .event-date {
-    position: absolute;
-    top: 38px;
-    left: 0;
-    right: 0;
-    width: 100px;
-    margin: 0 auto;
-    border-radius: 4px;
-    padding: 2px 4px;
+.bg-mb3 {
+    background-color: #382C6B !important;
 }
 
-@media (min-width: 1140px) {
-    .hori-timeline .events .event-list {
-        display: inline-block;
-        width: 24%;
-        padding-top: 45px;
-    }
-
-    .hori-timeline .events .event-list .event-date {
-        top: -12px;
-    }
+.bg-mb4 {
+    background-color: #382C6B !important;
 }
 
-.bg-soft-primary {
-    background-color: rgba(64, 144, 203, .3) !important;
+.bg-mb5 {
+    background-color: #382C6B !important;
 }
 
-.bg-soft-success {
-    background-color: rgba(71, 189, 154, .3) !important;
+.text-mb1 {
+    color: #382C6B !important;
 }
 
-.bg-soft-danger {
-    background-color: rgba(231, 76, 94, .3) !important;
+.text-mb2 {
+    color: #5F4F93 !important;
 }
 
-.bg-soft-warning {
-    background-color: rgba(249, 213, 112, .3) !important;
+.text-mb3 {
+    color: #382C6B !important;
+}
+
+.text-mb4 {
+    color: #382C6B !important;
+}
+
+.text-mb5 {
+    color: #382C6B !important;
 }
 
 .card {
@@ -100,7 +86,7 @@
 }
 
 .timeline .corner {
-    border: 3px solid #212529;
+    border: 3px solid #382C6B;
     width: 100%;
     position: relative;
     border-radius: 15px;
