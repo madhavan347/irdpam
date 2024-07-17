@@ -1,5 +1,5 @@
 .bg-mb1 {
-  background-color: #382c6bcc !important;
+  background-color: #864afc !important;
 }
 
 .bg-mb2 {
@@ -84,7 +84,7 @@
 }
 
 .timeline .corner {
-  border: 3px solid rgba(56, 44, 107, 0.8);
+  border: 3px dotted #864afc;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -151,8 +151,32 @@
   }
 }
 
+.nav-link {
+  text-decoration-color: #f4b623;
+}
 .nav-link:hover {
   text-decoration: underline;
   text-decoration-color: #f4b623;
   text-decoration-thickness: 3px;
+}
+
+div .display-5 {
+  text-decoration: underline;
+  text-decoration-color: #f4b623;
+  text-decoration-thickness: 5px;
+}
+
+hr {
+  border-top: 3px dotted #864afc;
+  opacity: 100;
+  position: relative;
+  top: 0.9px;
+}
+
+.accordion {
+  --bs-accordion-btn-color: black;
+  --bs-accordion-btn-bg: white;
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: white;
+  --bs-accordion-btn-focus-box-shadow: white;
 }
