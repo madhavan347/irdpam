@@ -2,7 +2,7 @@
   color: #16112a !important;
 } */
 .bg-mb1 {
-  background-color: #864afc !important;
+  background-color: #004E3C !important;
 }
 
 .bg-mb2 {
@@ -22,7 +22,7 @@
 }
 
 .text-mb1 {
-  color: rgba(56, 44, 107, 0.8) !important;
+  color: #004E3C !important;
 }
 
 .text-mb2 {
@@ -87,7 +87,7 @@
 }
 
 .timeline .corner {
-  border: 3px dotted #864afc;
+  border: 5px dotted #e6d373;
   width: 100%;
   position: relative;
   border-radius: 15px;
@@ -115,7 +115,7 @@
 
 .bsb-overlay {
   --bsb-overlay-opacity: 0.85;
-  --bsb-overlay-bg-color: 56, 44, 107;
+  --bsb-overlay-bg-color: 76, 131, 118;
   position: relative;
 }
 
@@ -155,22 +155,22 @@
 }
 
 .nav-link {
-  text-decoration-color: #f4b623;
+  text-decoration-color: #e6d373;
 }
 .nav-link:hover {
   text-decoration: underline;
-  text-decoration-color: #f4b623;
-  text-decoration-thickness: 3px;
+  text-decoration-color: #e6d373;
+  text-decoration-thickness: 2px;
 }
 
 div .display-5 {
   text-decoration: underline;
-  text-decoration-color: #f4b623;
-  text-decoration-thickness: 5px;
+  text-decoration-color: #e6d373;
+  text-decoration-thickness: 2px;
 }
 
 hr {
-  border-top: 3px dotted #864afc;
+  border-top: 3px dotted #e6d373;
   opacity: 100;
   position: relative;
   top: 0.9px;
