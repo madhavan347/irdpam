@@ -115,7 +115,7 @@
 
 .bsb-overlay {
   --bsb-overlay-opacity: 0.85;
-  --bsb-overlay-bg-color: 76, 131, 118;
+  /* --bsb-overlay-bg-color: 76, 131, 118; */
   position: relative;
 }
 
@@ -145,12 +145,12 @@
 }
 
 .bsb-hero-5 .container > .row {
-  min-height: 667px;
+  min-height: 1200px !important;
 }
 
 @media (min-width: 1200px) {
   .bsb-hero-5 .container > .row {
-    min-height: 925px;
+    min-height: 1200px !important;
   }
 }
 
